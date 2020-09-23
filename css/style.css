@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15pt;
+}
+
+i {
+    display: inline-block;
+    position: relative;
+    content: "";
+    font-family: "Font Awesome 5 Free";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+display: block;
+}
+
+/* Header */
+
+header {
+    display: block;
+    width: 100vh;
+}
+
+.conteiner {
+    display: flex;
+    width: 90%;
+    height: 3em;
+    justify-content: space-between;
+    padding: 1em;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/A-Wonderful-Day_icemanphotos.jpg);
+    background-size: cover;
+}
+
+/* Navigation */
+
+nav {
+    width: 50%;
+    display: flex;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav a {
+    color: white;
+}
+
+nav ll {
+    float: left;
+    padding: 0 13px;
+}
+nav a:hover {
+    color: #ff9e02;
+}
+
+/* search */
+
+nput:hover, input:active, input:focus {
+    outline: 0;
+    border: 0;
+}
+
+nput[type="search"] {
+    width: 92%;
+    height: 3em;
+    background: #ffffff45;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+form.search {
+    width: 30%;
+    
+}
+input::-webkit-input-placeholder {
+    color: white;
+}
+.btn-search {
+    background: none;
+    border: none;
+    width: auto;
+    padding-left: 0.2em;
+}
+.btn-search i {
+    content: "\f002";
+    color: white;
+    font-size: 16pt;
+}
