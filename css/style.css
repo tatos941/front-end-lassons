@@ -78,12 +78,12 @@ nav a:hover {
 
 /* search */
 
-nput:hover, input:active, input:focus {
+input:hover, input:active, input:focus {
     outline: 0;
     border: 0;
 }
 
-nput[type="search"] {
+input[type="search"] {
     width: 92%;
     height: 3em;
     background: #ffffff45;
