@@ -73,8 +73,13 @@ nav ll {
     float: left;
     padding: 0 13px;
 }
+
 nav a:hover {
     color: #ff9e02;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
 }
 
 /* search */
