@@ -6,6 +6,7 @@
 body {
     font-size: 15pt;
     color: white;
+    font-family: 'Vollkorn', sans-serif;
 }
 
 section {
@@ -106,7 +107,7 @@ input:hover, input:active, input:focus {
     border: 0;
 }
 
-input[type="search"] {
+input[type="search"]  {
     width: 92%;
     height: 3em;
     background: #ffffff45;
@@ -193,7 +194,7 @@ input::-webkit-input-placeholder {
     padding-right: 1em;
     display: list-item;
 }
-.title-about {
+.title-about, .title-connect {
     display: block;
     width: 30%;
     padding: 1em;
@@ -231,4 +232,73 @@ p.info-about {
     color: black;
     background-image: url(/img/unnamed.jpg);
     background-size: cover;
+}
+p.info-about-company {
+    width: 95%;
+    padding-top: 3em;
+    background: none;
+    color: black;
+    line-height: 1.5;
+}
+ input.form {
+    display: list-item;
+    width: 50%;
+    height: 40%;
+    padding-top: 2em;
+    margin-top: 2em;
+    border: none;
+    border-radius: 2em;
+    margin-right: 1.2em;
+    background: #f7e4e485;
+}
+.contact {
+    background-image: url(/img/13134.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.contact-form {
+    text-align: justify;
+    background-color:#1c63659e;
+    display: table;
+    padding: 3em;
+    margin-top: 3em;
+}
+
+textarea#message {
+    background: #ffffff61;
+    border: none;
+    margin: 6.6562px 0px 0px;
+    width: 580px;
+    height: 200px;
+}
+textarea#message:hover, 
+textarea#message:focus, 
+textarea#message:active {
+    outline: 0;
+}
+input[type="radio"], input[type="checkbox"] {
+    display: table;
+    margin: 1em;
+}
+input[type="submit"] {
+    background: none;
+    border: 1px solid white;
+    width: auto;
+    display: block;
+    color: wheat;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+input[type="submit"]:hover {
+    background-color: #ff9e02;
+    border:#ff9e02;
+    cursor: pointer;
+    color: white;
+}
+.footer {
+    padding: 2em;
+    background-color: #1c63659e;
+    display: block;
 }
