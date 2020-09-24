@@ -8,6 +8,10 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 30pt;
+}
+
 i {
     display: inline-block;
     position: relative;
@@ -63,6 +67,11 @@ nav ul {
 
 nav ul ul {
     display: none;
+    position: absolute;
+}
+.drop-menu ul li {
+    padding: 0.6em;
+    margin-right: 0.4em;
 }
 
 nav a {
@@ -78,7 +87,7 @@ nav a:hover {
     color: #ff9e02;
 }
 
-nav > ul > li:hover > ul {
+.drop-menu:hover > ul {
     display: block;
 }
 
